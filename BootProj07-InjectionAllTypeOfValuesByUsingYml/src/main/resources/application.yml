@@ -3,6 +3,8 @@ emp:
     address: Hydrabad
     company-details:
       title: Realcoderz
+      size: 50
+      location: Noida
     friends:
     - Sri-nath
     - raja
