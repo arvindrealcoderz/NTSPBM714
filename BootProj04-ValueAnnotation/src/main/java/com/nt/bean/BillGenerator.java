@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component("bill")
+@Component("bb")
 public class BillGenerator {
 	//@Value("50")
 	@Value("#{info.marks1+info.marks2+info.marks3}")

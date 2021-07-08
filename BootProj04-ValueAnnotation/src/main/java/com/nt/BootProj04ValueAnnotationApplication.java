@@ -12,7 +12,7 @@ public class BootProj04ValueAnnotationApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext ctx= SpringApplication.run(BootProj04ValueAnnotationApplication.class, args);
-		BillGenerator generator=ctx.getBean("bill",BillGenerator.class);
+		BillGenerator generator=ctx.getBean("bb",BillGenerator.class);
 		System.out.println(generator.toString());	
 		((ConfigurableApplicationContext) ctx).close();
 	}

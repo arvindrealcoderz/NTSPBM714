@@ -12,6 +12,7 @@ import com.nt.dao.IEmployeeDAO;
 import com.nt.dto.EmployeeDTO;
 //@Service("empService")
 @Service()
+
 public class EmployeeServiceImpl implements IEmployeeService {
 
 	@Autowired
