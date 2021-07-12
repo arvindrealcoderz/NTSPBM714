@@ -14,15 +14,8 @@ public class BootProj09SpringDataJpaCoranaRegistrationApplication {
 
 	public static void main(String[] args) {
 		//get access
-		ApplicationContext ctx= SpringApplication.run(BootProj09SpringDataJpaCoranaRegistrationApplication.class, args);
-		CrudRepoTestRunner service=ctx.getBean("runner",CrudRepoTestRunner.class);
-		try {
-		service.run(args);
-		}catch (Exception e) {e.printStackTrace();
-		}
-	
-	
-	
+		 SpringApplication.run(BootProj09SpringDataJpaCoranaRegistrationApplication.class, args);
+		
 	}
 
 }
