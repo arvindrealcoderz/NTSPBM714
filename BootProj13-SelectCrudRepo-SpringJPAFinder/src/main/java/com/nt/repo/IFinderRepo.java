@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import com.nt.entity.CoronaPatient;
 
 @Repository("repo")
-public interface IFinderRepo extends JpaRepository<CoronaPatient, Integer> {
+public interface IFinderRepo extends JpaRepository<CoronaPatient, Integer> ,CrudRepository<CoronaPatient, Integer>{
 
 	//public List<CoronaPatient> findByCompany(String company) ;
 	//public List<CoronaPatient> findByCompanyEquals(String company) ;
